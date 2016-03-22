@@ -11,7 +11,7 @@ module.exports = function(app) {
       posts = [];
     } 
     res.render('index', {
-      title: '主页',
+      title: '主页1',
       user: req.session.user,
       posts: posts,
       success: req.flash('success').toString(),
